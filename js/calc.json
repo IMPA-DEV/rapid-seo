@@ -1,0 +1,38 @@
+{"items":[
+  {
+    "category":"Living room",
+    "goods": [
+      {
+        "brand":"Bar, Portable",
+        "vol":"15"
+      },
+      {
+        "brand":"Cench, Piano3",
+        "vol":"5"
+      },
+      {
+        "brand":"Cench, Piano2",
+        "vol":"5"
+      },{
+        "brand":"Sed Inc. Sp/Matt",
+        "vol":"40"
+      }
+    ]
+  },
+  {
+    "category":"BEDROOM",
+    "goods": [
+      {
+        "brand":"Chest, Cedar1",
+        "vol":"15"
+      },
+      {
+        "brand":"Bed Inc. Sp/Matt",
+        "vol":"40"
+      },{
+        "brand":"Sed Inc. Sp/Matt",
+        "vol":"40"
+      }
+    ]
+  }
+]}

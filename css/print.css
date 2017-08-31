@@ -1,0 +1,26 @@
+@media print { 
+    header,
+    footer,
+    .prices__tabs,
+    #btn-calc-print,
+    .calc-page__header-bg,
+    .calc__part-content tr,
+    .calc .int-page-content__title,
+    .int-page-content__subtitle,
+    .calc .contacts-page__form   {
+        display: none;
+    }
+    .int-page-content {
+        padding: 0;
+    }
+    .int-page-content__title {
+        font-size: 36px;
+    }
+    .calc__part-content tr.show-print,
+    .calc__part-content {
+        display: block !important
+    }
+    .calc__results-block-col {
+        width: 50%;
+    }
+}
