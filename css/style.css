@@ -487,9 +487,14 @@ a {
     margin: 40px 0 0; }
     .prices__info a {
       margin-top: 10px; }
-      .prices__info a img {
+      .prices__info a svg {
         vertical-align: middle;
         margin-right: 10px; }
+      .prices__info a:hover svg path,#btn-calc-print:hover svg g{
+        transition: 0.5s;
+        fill: #fff;
+      }
+
   .prices__mobile-tabs {
     display: none; }
   .prices__tabs {
@@ -1215,7 +1220,7 @@ a {
 #btn-calc-print {
   width: 100%;
   text-transform: none; }
-  #btn-calc-print img {
+  #btn-calc-print svg {
     vertical-align: top;
     margin-right: 5px; }
 .lity-close {
@@ -1264,18 +1269,19 @@ a {
 #ui-datepicker-div {
   background-color: #fff;
   border-radius: 4px;
-  padding: 5px;
-  border: 1px solid #40c9a2;
   box-shadow: 0 3px 15px 0 rgba(154, 154, 154, 0.5);
 }
 #ui-datepicker-div td {
   border: 1px solid #eee;
   padding: 0;
 }
-#ui-datepicker-div td a {
+#ui-datepicker-div td a, #ui-datepicker-div td span{
   display: block;
   padding: 2px 3px;
   text-align: center;
+}
+#ui-datepicker-div td span {
+  opacity: 0.5;
 }
 .ui-datepicker-header,
 #ui-datepicker-div td a:hover {

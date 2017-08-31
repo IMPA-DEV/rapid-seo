@@ -346,6 +346,6 @@ $( document ).ready(function() {
     });
 
     //datepicker
-    $( ".datepicker-inp" ).datepicker();
+    $( ".datepicker-inp" ).datepicker({minDate: 0});
 });
 

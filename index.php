@@ -52,30 +52,37 @@
                 <div class="inputs-container__wrapper">
                   <div class="form-step">
                     <div class="input-wrapper">
-                      <input type="text"/><span class="input-placeholder">Move From</span>
+                      <input type="text" name="zipform"/><span class="input-placeholder">Move From</span>
                     </div>
                     <div class="input-wrapper">
-                      <input type="text"/><span class="input-placeholder">Move To</span>
+                      <input type="text" name="zipto"/><span class="input-placeholder">Move To</span>
                     </div>
                   </div>
                   <div class="form-step">
                     <div class="select-wrapper">
-                      <select class="form-select">
+                      <select class="form-select" name="size_of_move">
                         <option selected="selected" disabled="disabled">Size of Move</option>
-                        <option>1</option>
-                        <option>2</option>
+                          <option value="Few items">Few items</option>
+                          <option value="Studio">Studio</option>
+                          <option value="1 Bedroom">1 Bedroom</option>
+                          <option value="2 Bedroom">2 Bedroom</option>
+                          <option value="3 Bedroom">3 Bedroom</option>
+                          <option value="4 Bedroom">4 Bedroom</option>
+                          <option value="House">House</option>
+                          <option value="Office">Office</option>
+                          <option value="Other">Other</option>
                       </select>
                     </div>
                     <div class="input-wrapper">
-                      <input type="text"/ class="datepicker-inp"><span class="input-placeholder">Moving Date</span>
+                      <input type="text" class="datepicker-inp" name="date"/><span class="input-placeholder">Moving Date</span>
                     </div>
                   </div>
                   <div class="form-step">
                     <div class="input-wrapper">
-                      <input type="email" required="required"/><span class="input-placeholder">Email</span>
+                      <input type="email" required="required" name="email"/><span class="input-placeholder">Email</span>
                     </div>
                     <div class="input-wrapper">
-                      <input type="tel" required="required"/><span class="input-placeholder">Phone</span>
+                      <input type="tel" required="required" name="phone"/><span class="input-placeholder">Phone</span>
                     </div>
                   </div>
                 </div>
@@ -177,7 +184,11 @@
             </div>
           </div>
         </div>
-        <p class="prices__info">We always have great offers and special promotions! Call now to get special moving deals:<br/><a class="btn-red transparent"><img src="img/ring.svg"/><span>(888) 399-2822</span></a></p>
+        <p class="prices__info">We always have great offers and special promotions! Call now to get special moving deals:<br/><a class="btn-red transparent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="23" viewBox="0 0 32 23">
+                    <path fill="#F15946" fill-rule="nonzero" d="M29.108 17.878l-1.01-1.017c3.3-3.325 3.299-8.736-.001-12.06l1.01-1.019c3.857 3.885 3.857 10.21 0 14.096zM27.36 5.54L26.35 6.56c2.336 2.355 2.336 6.186 0 8.54l1.01 1.02c2.893-2.918 2.893-7.663 0-10.579zm-1.803 1.816l-1.01 1.018a3.49 3.49 0 0 1 0 4.909l1.01 1.018a4.942 4.942 0 0 0 0-6.945zM2.892 17.877l1.01-1.016C.602 13.536.603 8.125 3.903 4.8l-1.01-1.019c-3.857 3.885-3.857 10.21 0 14.096zm1.747-1.759L5.65 15.1c-2.336-2.353-2.336-6.185 0-8.54L4.639 5.54c-2.893 2.916-2.893 7.661 0 10.577zm1.802-1.815l1.01-1.018a3.492 3.492 0 0 1 .002-4.91l-1.01-1.017a4.942 4.942 0 0 0-.002 6.945zM22.63 1.553v19.895c0 .853-.694 1.552-1.542 1.552H10.913c-.847 0-1.541-.7-1.541-1.552V1.553C9.372.7 10.066 0 10.913 0h10.175c.848 0 1.542.7 1.542 1.553zm-8.444-.245c0 .103.083.188.187.188h3.254a.187.187 0 0 0 .187-.188.187.187 0 0 0-.187-.189h-3.254a.188.188 0 0 0-.187.189zm2.585 20.14A.774.774 0 0 0 16 20.67a.774.774 0 0 0-.77.777c0 .43.344.776.77.776a.774.774 0 0 0 .771-.775zm4.786-18.985H10.444v17.662h11.113V2.463z"/>
+                </svg>
+                <span>(888) 399-2822</span></a></p>
       </div>
     </section>
     <!--prices end-->
@@ -245,41 +256,48 @@
           <div class="row">
             <div class="col main-form__col">
               <div class="input-wrapper">
-                <input type="tel"/><span class="input-placeholder">Phone *</span>
+                <input type="tel" name="phone"/><span class="input-placeholder">Phone *</span>
               </div>
               <div class="input-wrapper">
-                <input type="email"/><span class="input-placeholder">Email *</span>
+                <input type="email" name="email"/><span class="input-placeholder">Email *</span>
               </div>
               <div class="row main-form__row-sm">
                 <div class="col main-form__col-sm">
                   <div class="input-wrapper">
-                    <input type="text"/><span class="input-placeholder">Move From</span>
+                    <input type="text" name="zipform"/><span class="input-placeholder">Move From</span>
                   </div>
                 </div>
                 <div class="col main-form__col-sm">
                   <div class="input-wrapper">
-                    <input type="text"/><span class="input-placeholder">Move To</span>
+                    <input type="text" name="zipto"/><span class="input-placeholder">Move To</span>
                   </div>
                 </div>
                 <div class="col main-form__col-sm">
                   <div class="select-wrapper">
-                    <select class="form-select">
+                    <select class="form-select" name="size_of_move">
                       <option selected="selected" disabled="disabled">Size of Move</option>
-                      <option>1</option>
-                      <option>2</option>
+                        <option value="Few items">Few items</option>
+                        <option value="Studio">Studio</option>
+                        <option value="1 Bedroom">1 Bedroom</option>
+                        <option value="2 Bedroom">2 Bedroom</option>
+                        <option value="3 Bedroom">3 Bedroom</option>
+                        <option value="4 Bedroom">4 Bedroom</option>
+                        <option value="House">House</option>
+                        <option value="Office">Office</option>
+                        <option value="Other">Other</option>
                     </select>
                   </div>
                 </div>
                 <div class="col main-form__col-sm">
                   <div class="input-wrapper">
-                    <input type="text" class="datepicker-inp"/><span class="input-placeholder">Moving Date</span>
+                    <input type="text" class="datepicker-inp" name="date"/><span class="input-placeholder">Moving Date</span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col main-form__col textarea-col">
               <div class="input-wrapper">
-                <textarea></textarea><span class="input-placeholder">Your Message</span>
+                <textarea name="descr"></textarea><span class="input-placeholder">Your Message</span>
               </div>
             </div>
           </div>

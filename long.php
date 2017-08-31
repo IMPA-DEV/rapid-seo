@@ -60,8 +60,15 @@ include 'variables.php';
                     <div class="select-wrapper">
                       <select class="form-select">
                         <option selected="selected" disabled="disabled">Size of Move</option>
-                        <option>1</option>
-                        <option>2</option>
+                          <option value="Studio">Few items</option>
+                          <option value="Studio">Studio</option>
+                          <option value="1 Bedroom">1 Bedroom</option>
+                          <option value="2 Bedroom">2 Bedroom</option>
+                          <option value="3 Bedroom">3 Bedroom</option>
+                          <option value="4 Bedroom">4 Bedroom</option>
+                          <option value="House">House</option>
+                          <option value="Office">Office</option>
+                          <option value="Office">Other</option>
                       </select>
                     </div>
                     <div class="input-wrapper">
@@ -144,8 +151,15 @@ include 'variables.php';
                   <div class="select-wrapper">
                     <select class="form-select">
                       <option selected="selected" disabled="disabled">Size of Move</option>
-                      <option>1</option>
-                      <option>2</option>
+                        <option value="Studio">Few items</option>
+                        <option value="Studio">Studio</option>
+                        <option value="1 Bedroom">1 Bedroom</option>
+                        <option value="2 Bedroom">2 Bedroom</option>
+                        <option value="3 Bedroom">3 Bedroom</option>
+                        <option value="4 Bedroom">4 Bedroom</option>
+                        <option value="House">House</option>
+                        <option value="Office">Office</option>
+                        <option value="Office">Other</option>
                     </select>
                   </div>
                 </div>
