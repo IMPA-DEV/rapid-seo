@@ -15,12 +15,12 @@ include 'variables.php';
               <li><a href="/long">Long distance</a></li>
               <li><a href="/storage">Storage services</a></li>
               <li class="has-submenu"><a href="#">Other services</a>
-                <?echo $submenu;?>
+                <?php echo $submenu;?>
               </li>
               <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
-          <div class="col header__phone-col"><a href="tel:<?echo $phone;?>"><?echo $phone;?></a>
+          <div class="col header__phone-col"><a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
             <div id="menu-btn">
               <div class="line"></div>
               <div class="line"></div>
@@ -65,7 +65,7 @@ include 'variables.php';
             <div class="col calc__results-block-col"><button class="btn-red transparent" id="btn-calc-print" onclick="window.print(); return false;"><img src="img/printer.svg" alt="print"/><span>Print</span></button></div>
           </div>
           <h3 class="int-page-content__title">send your list for estimate</h3>
-          <p class="int-page-content__subtitle">Use form below to send us your list for moving estimate. If you need assistance, please call us at <a href="tel:<?echo $phone;?>"><?echo $phone;?></a></p>
+          <p class="int-page-content__subtitle">Use form below to send us your list for moving estimate. If you need assistance, please call us at <a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a></p>
           <div class="contacts-page__form">
             <div class="row">
               <div class="col contacts-page__form-col">

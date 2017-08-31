@@ -15,12 +15,12 @@ include 'variables.php';
               <li><a href="/long">Long distance</a></li>
               <li class="current"><a href="/storage">Storage services</a></li>
               <li class="has-submenu"><a href="#">Other services</a>
-                <?echo $submenu;?>
+                <?php echo $submenu;?>
               </li>
               <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
-          <div class="col header__phone-col"><a href="tel:<?echo $phone;?>"><?echo $phone;?></a>
+          <div class="col header__phone-col"><a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
             <div id="menu-btn">
               <div class="line"></div>
               <div class="line"></div>
@@ -59,7 +59,7 @@ include 'variables.php';
               </div>
               <a class="btn-red" id="open-loc-popup" href="#popup-form" data-lity="data-lity">Get a free quote</a>
             </div>
-            <p class="main-slider__callback">Need Help With a Booking? Give Us a Call: <a href="tel:<?echo $phone;?>"><?echo $phone;?></a></p>
+            <p class="main-slider__callback">Need Help With a Booking? Give Us a Call: <a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a></p>
           </div>
         </div>
       </div>

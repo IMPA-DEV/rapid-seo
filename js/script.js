@@ -210,7 +210,7 @@ $( document ).ready(function() {
     var calcContainer = $('#calc-room');
     var calcContainerAlph = $('#calc-alph');
     var itemsCount = 0;
-    $.getJSON('/js/calc.json', function(data) {
+    $.getJSON('js/calc.json', function(data) {
         calcRender(data,1);
         calcRenderAlph(data,2);
     });

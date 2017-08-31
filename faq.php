@@ -15,12 +15,12 @@ include 'variables.php';
               <li><a href="/long">Long distance</a></li>
               <li><a href="/storage">Storage services</a></li>
               <li class="has-submenu"><a href="#">Other services</a>
-                <?echo $submenu;?>
+                <?php echo $submenu;?>
               </li>
               <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
-          <div class="col header__phone-col"><a href="tel:<?echo $phone;?>"><?echo $phone;?></a>
+          <div class="col header__phone-col"><a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
             <div id="menu-btn">
               <div class="line"></div>
               <div class="line"></div>
@@ -42,7 +42,7 @@ include 'variables.php';
             <li><a href="/calculator">Calculator</a></li>
             <li class="current"><a href="/faq">FAQ</a></li>
           </ul>
-          <?echo $countrySel;?>
+          <?php echo $countrySel;?>
         </div>
       </div>
     </section>
@@ -95,7 +95,7 @@ include 'variables.php';
           </div>
         </div>
         <div class="contacts-page__form">
-          <p class="contacts-page__form-title">If You Didn't Find Your Answer In Our FAQs, Please Feel Free To Contact Us Using The Form Below Or By Calling<a href="tel:<?echo $phone;?>"><?echo $phone;?></a></p>
+          <p class="contacts-page__form-title">If You Didn't Find Your Answer In Our FAQs, Please Feel Free To Contact Us Using The Form Below Or By Calling<a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a></p>
           <form method="POST">
             <div class="row">
               <div class="col contacts-page__form-col">

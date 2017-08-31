@@ -12,9 +12,9 @@
             </div>
             <div class="col footer__copyright"><span>Copyrights ©2013-2017.</span></div>
             <div class="col footer__contacts">
-              <a class="footer__mail" href="mailto:<?echo $email;?>"><img src="img/envelope.svg" alt="envelope"/><span><?echo $email;?></span></a>
-              <a class="footer__address" href="#"><img src="img/pin-w.svg" alt="pin"/><span><?echo $address;?></span></a>
-              <a class="footer__phone" href="tel:<?echo $phone;?>"><img src="img/phone.svg" alt="phone"/><span><?echo $phone;?></span></a>
+              <a class="footer__mail" href="mailto:<?php echo $email;?>"><img src="img/envelope.svg" alt="envelope"/><span><?php echo $email;?></span></a>
+              <a class="footer__address" href="#"><img src="img/pin-w.svg" alt="pin"/><span><?php echo $address;?></span></a>
+              <a class="footer__phone" href="tel:<?php echo $phone;?>"><img src="img/phone.svg" alt="phone"/><span><?php echo $phone;?></span></a>
             </div>
         </div>
     </div>
@@ -22,18 +22,18 @@
 <!--mobile menu-->
 <div id="mobile-menu">
       <div class="container">
-        <div class="bg-contain" id="close-menu"></div><a class="mobile-menu__phone" href="tel:<?echo $phone;?>"><?echo $phone;?></a>
+        <div class="bg-contain" id="close-menu"></div><a class="mobile-menu__phone" href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
         <div class="header__main-nav">
           <ul>
             <li><a href="/local">Local moving</a></li>
             <li><a href="/long">Long distance</a></li>
             <li><a href="/storage">Storage services</a></li>
             <li class="has-submenu"><a href="#">Other services</a>
-                <?echo $submenu;?>
+                <?php echo $submenu;?>
             </li>
             <li><a href="/contact">Contact us</a></li>
           </ul>
-          <?echo $countrySel;?>
+          <?php echo $countrySel;?>
         </div>
         <div class="mobile-menu__bottom-menu">
           <ul>

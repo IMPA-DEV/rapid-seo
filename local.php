@@ -15,12 +15,12 @@ include 'variables.php';
               <li><a href="/long">Long distance</a></li>
               <li><a href="/storage">Storage services</a></li>
               <li class="has-submenu"><a href="#">Other services</a>
-                <?echo $submenu;?>
+                <?php echo $submenu;?>
               </li>
               <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
-          <div class="col header__phone-col"><a href="tel:<?echo $phone;?>"><?echo $phone;?></a>
+          <div class="col header__phone-col"><a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
             <div id="menu-btn">
               <div class="line"></div>
               <div class="line"></div>
@@ -39,7 +39,7 @@ include 'variables.php';
           <?php
               include 'sidebarmenu-inc.php';
           ?>
-            <?echo $countrySel;?>
+            <?php echo $countrySel;?>
           </div>
           <div class="col main-slider__main-col">
             <h1 class="main-slider__title">We deliver what others promise</h1>
@@ -84,7 +84,7 @@ include 'variables.php';
                 <div class="btn-red" id="form-next-btn">Next</div>
               </div>
             </form>
-            <p class="main-slider__callback">Need Help With a Booking? Give Us a Call:<a href="tel:<?echo $phone;?>"><?echo $phone;?></a></p>
+            <p class="main-slider__callback">Need Help With a Booking? Give Us a Call:<a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a></p>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ include 'variables.php';
             </div>
           </div>
         </div>
-        <p class="prices__info">We always have great offers and special promotions! Call now to get special moving deals:<br/><a href="tel:<?echo $phone;?>" class="btn-red transparent"><img src="img/ring.svg"/><span><?echo $phone;?></span></a></p>
+        <p class="prices__info">We always have great offers and special promotions! Call now to get special moving deals:<br/><a href="tel:<?php echo $phone;?>" class="btn-red transparent"><img src="img/ring.svg"/><span><?php echo $phone;?></span></a></p>
       </div>
     </section>
     <!--prices end-->

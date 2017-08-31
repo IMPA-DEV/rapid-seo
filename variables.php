@@ -1,4 +1,4 @@
-<?
+<?php
 $phone = '(888)765-9878';
 $email = 'info@Rapid-Moving-Company.com';
 $address = '11519 Culver Blvd Los Angeles CA 90066';

@@ -15,12 +15,12 @@ include 'variables.php';
               <li><a href="/long">Long distance</a></li>
               <li><a href="/storage">Storage services</a></li>
               <li class="has-submenu"><a href="#">Other services</a>
-                <?echo $submenu;?>
+                <?php echo $submenu;?>
               </li>
               <li class="current"><a href="/contact">Contact us</a></li>
             </ul>
           </div>
-          <div class="col header__phone-col"><a href="tel:<?echo $phone;?>"><?echo $phone;?></a>
+          <div class="col header__phone-col"><a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
             <div id="menu-btn">
               <div class="line"></div>
               <div class="line"></div>
@@ -42,7 +42,7 @@ include 'variables.php';
             <li><a href="/calculator">Calculator</a></li>
             <li><a href="/faq">FAQ</a></li>
           </ul>
-          <?echo $countrySel;?>
+          <?php echo $countrySel;?>
         </div>
       </div>
     </section>
@@ -50,7 +50,7 @@ include 'variables.php';
     <section class="int-page-content bg-main">
       <div class="container">
         <h2 class="int-page-content__title">Contact us</h2>
-        <p class="int-page-content__subtitle">Please use the form to contact us online. If you need immediate assistance, please call us at <a href="tel:<?echo $phone;?>"><?echo $phone;?></a></p>
+        <p class="int-page-content__subtitle">Please use the form to contact us online. If you need immediate assistance, please call us at <a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a></p>
         <div class="contacts-page__form">
           <form method="POST">
             <div class="row">
@@ -80,9 +80,9 @@ include 'variables.php';
         <div class="container">
           <div class="row">
             <div class="col contacts-block__info-col">
-              <p class="contacts-block__title">address:</p><a href="#"><?echo $address;?></a>
-              <p class="contacts-block__title">phone:</p><a href="tel:<?echo $phone;?>"><?echo $phone;?></a>
-              <p class="contacts-block__title">email:</p><a href="mailto:<?echo $email;?>"><?echo $email;?></a>
+              <p class="contacts-block__title">address:</p><a href="#"><?php echo $address;?></a>
+              <p class="contacts-block__title">phone:</p><a href="tel:<?php echo $phone;?>"><?php echo $phone;?></a>
+              <p class="contacts-block__title">email:</p><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a>
             </div>
           </div>
         </div>
