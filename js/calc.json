@@ -5,17 +5,147 @@
       {
         "brand":"Bar, Portable",
         "vol":"15"
-      },
-      {
-        "brand":"Cench, Piano3",
-        "vol":"5"
-      },
-      {
-        "brand":"Cench, Piano2",
+      },{
+        "brand":"Bench, Piano",
         "vol":"5"
       },{
-        "brand":"Sed Inc. Sp/Matt",
+        "brand":"Bookcase",
+        "vol":"20"
+      },{
+        "brand":"Bookshelves, Sect.",
+        "vol":"5"
+      },{
+        "brand":"Cabinet, Curio",
+        "vol":"10"
+      },{
+        "brand":"Chair, Straight",
+        "vol":"5"
+      },{
+        "brand":"Chair, Arm",
+        "vol":"10"
+      },{
+        "brand":"Chair, Rocker",
+        "vol":"12"
+      },{
+        "brand":"Chair, Occasional",
+        "vol":"15"
+      },{
+        "brand":"Chair, Overstuffed",
+        "vol":"25"
+      },{
+        "brand":"Chest, Cedar",
+        "vol":"15"
+      },{
+        "brand":"Clock, Grandfather",
+        "vol":"20"
+      },{
+        "brand":"Day Bed",
+        "vol":"30"
+      },{
+        "brand":"Desk, SM/Winthrop",
+        "vol":"22"
+      },{
+        "brand":"Desk, Secretary",
+        "vol":"35"
+      },{
+        "brand":"Fireplace Equip.",
+        "vol":"5"
+      },{
+        "brand":"Footstool",
+        "vol":"2"
+      },{
+        "brand":"Hall Tree Rack",
+        "vol":"2"
+      },{
+        "brand":"Hall Tree Large",
+        "vol":"12"
+      },{
+        "brand":"Lamp, Floor",
+        "vol":"3"
+      },{
+        "brand":"Lamp, Pole",
+        "vol":"3"
+      },{
+        "brand":"Magazine Rack",
+        "vol":"2"
+      },{
+        "brand":"Music Cabinet",
+        "vol":"10"
+      },{
+        "brand":"Piano, Baby",
+        "vol":"70"
+      },{
+        "brand":"Piano, Parlor Gr.",
+        "vol":"80"
+      },{
+        "brand":"Piano Spinet/Console",
+        "vol":"60"
+      },{
+        "brand":"Radio, Table",
+        "vol":"2"
+      },{
+        "brand":"Rec. Player, Port.",
+        "vol":"2"
+      },{
+        "brand":"Rugs, Lg. Roll/Pad",
+        "vol":"10"
+      },{
+        "brand":"Sofa, Rattan/Wicker",
+        "vol":"3"
+      },{
+        "brand":"Sofa, Sec., Per Sec",
+        "vol":"10"
+      },{
+        "brand":"Sofa, Loveseat",
+        "vol":"30"
+      },{
+        "brand":"Sofa, 3 Cushion",
+        "vol":"35"
+      },{
+        "brand":"Sofa, Hide, 4 Cush.",
+        "vol":"50"
+      },{
+        "brand":"Stereo Component",
+        "vol":"60"
+      },{
+        "brand":"Stereo, Console",
+        "vol":"8"
+      },{
+        "brand":"Tables, Drop leaf",
+        "vol":"15"
+      },{
+        "brand":"Tables, Occasional",
+        "vol":"15"
+      },{
+        "brand":"Tables, Coffee",
+        "vol":"12"
+      },{
+        "brand":"Tables, End",
+        "vol":"5"
+      },{
+        "brand":"Telephone Stand",
+        "vol":"5"
+      },{
+        "brand":"TV, Big Screen",
         "vol":"40"
+      },{
+        "brand":"TV, Portable",
+        "vol":"5"
+      },{
+        "brand":"TV, Table Model",
+        "vol":"10"
+      },{
+        "brand":"TV, Console",
+        "vol":"15"
+      },{
+        "brand":"TV, Combination",
+        "vol":"25"
+      },{
+        "brand":"TV, Stand",
+        "vol":"3"
+      },{
+        "brand":"Trunk",
+        "vol":"5"
       }
     ]
   },
@@ -23,15 +153,507 @@
     "category":"BEDROOM",
     "goods": [
       {
-        "brand":"Chest, Cedar1",
-        "vol":"15"
-      },
-      {
         "brand":"Bed Inc. Sp/Matt",
         "vol":"40"
       },{
-        "brand":"Sed Inc. Sp/Matt",
+        "brand":"Bed Rollaway",
+        "vol":"20"
+      },{
+        "brand":"Bed, Single",
         "vol":"40"
+      },{
+        "brand":"Bed, Std/Dbl.",
+        "vol":"60"
+      },{
+        "brand":"Bed, Queen",
+        "vol":"65"
+      },{
+        "brand":"Bed, King",
+        "vol":"70"
+      },{
+        "brand":"Bed, Bunk (Set 2)",
+        "vol":"70"
+      },{
+        "brand":"Bookshelves, Sect.",
+        "vol":"5"
+      },{
+        "brand":"Chair, Boudoir",
+        "vol":"10"
+      },{
+        "brand":"Chair, Rocker",
+        "vol":"5"
+      },{
+        "brand":"Chaise Lounge",
+        "vol":"25"
+      },{
+        "brand":"Chest, Bachelor",
+        "vol":"12"
+      },{
+        "brand":"Chest, Cedar",
+        "vol":"15"
+      },{
+        "brand":"Chest, Armoire",
+        "vol":"30"
+      },{
+        "brand":"Desc, SM/Winthrop",
+        "vol":"22"
+      },{
+        "brand":"Dresser/Vanity Bch",
+        "vol":"3"
+      },{
+        "brand":"Dresser, Vanity",
+        "vol":"20"
+      },{
+        "brand":"Bed, King",
+        "vol":"70"
+      },{
+        "brand":"Bed, Bunk (Set 2)",
+        "vol":"70"
+      },{
+        "brand":"Dresser, Single",
+        "vol":"30"
+      },{
+        "brand":"Dresser, Double",
+        "vol":"40"
+      },{
+        "brand":"Dresser, Triple",
+        "vol":"50"
+      },{
+        "brand":"Exercise Bike",
+        "vol":"10"
+      },{
+        "brand":"Lamp, Floor",
+        "vol":"3"
+      },{
+        "brand":"Night Table",
+        "vol":"5"
+      },{
+        "brand":"Rug, Large or Pad",
+        "vol":"10"
+      },{
+        "brand":"Rug, Small or Pad",
+        "vol":"3"
+      },{
+        "brand":"Wardrobe, Small",
+        "vol":"20"
+      },{
+        "brand":"Wardrobe, Large",
+        "vol":"40"
+      },{
+        "brand":"Waterbed",
+        "vol":"20"
+      },{
+        "brand":"Ironing Board",
+        "vol":"2"
+      }
+    ]
+  },
+  {
+    "category":"NURSERY",
+    "goods": [
+      {
+        "brand":"Bassinette",
+        "vol":"5"
+      },{
+        "brand":"Bed, Youth",
+        "vol":"30"
+      },{
+        "brand":"Chair, Child`s",
+        "vol":"3"
+      },{
+        "brand":"Chair, High",
+        "vol":"5"
+      },{
+        "brand":"Chest",
+        "vol":"12"
+      },{
+        "brand":"Chest, Toy",
+        "vol":"5"
+      },{
+        "brand":"Crib, Baby",
+        "vol":"10"
+      },{
+        "brand":"Table, Child`s",
+        "vol":"5"
+      },{
+        "brand":"Playpen",
+        "vol":"10"
+      },{
+        "brand":"Rug, Large or Pad",
+        "vol":"10"
+      },{
+        "brand":"Rug, Small or Pad",
+        "vol":"3"
+      }
+    ]
+  },
+  {
+    "category":"DINING ROOM",
+    "goods": [
+      {
+        "brand":"Buffer (Base)",
+        "vol":"30"
+      },{
+        "brand":"Hutch (Top)",
+        "vol":"20"
+      },{
+        "brand":"Cabinet, Corner",
+        "vol":"20"
+      },{
+        "brand":"Dining Table",
+        "vol":"30"
+      },{
+        "brand":"Dining Chair",
+        "vol":"5"
+      },{
+        "brand":"Server",
+        "vol":"15"
+      },{
+        "brand":"Tea Cart",
+        "vol":"10"
+      },{
+        "brand":"Rugs, Large or Pad",
+        "vol":"10"
+      },{
+        "brand":"Rugs, Small or Pad",
+        "vol":"3"
+      }
+    ]
+  },
+  {
+    "category":"KITCHEN",
+    "goods": [
+      {
+        "brand":"Kitchen Chairs",
+        "vol":"5"
+      },{
+        "brand":"Kitchen Table",
+        "vol":"10"
+      },{
+        "brand":"Chair, High",
+        "vol":"5"
+      },{
+        "brand":"Kitchen Cabinet",
+        "vol":"30"
+      },{
+        "brand":"Microwave Oven",
+        "vol":"10"
+      },{
+        "brand":"Serving Cart",
+        "vol":"15"
+      },{
+        "brand":"Stool",
+        "vol":"3"
+      },{
+        "brand":"Utility Cabinet",
+        "vol":"10"
+      }
+    ]
+  },
+  {
+    "category":"APPLIANCES",
+    "goods": [
+      {
+        "brand":"Air Cond./Wind. Sm.",
+        "vol":"15"
+      },{
+        "brand":"Air Cond./Wind. Lg.",
+        "vol":"20"
+      },{
+        "brand":"Dehumidifier",
+        "vol":"10"
+      },{
+        "brand":"Dishwasher",
+        "vol":"20"
+      },{
+        "brand":"Freezer 10 or less",
+        "vol":"30"
+      },{
+        "brand":"Freezer 11 to 15",
+        "vol":"45"
+      },{
+        "brand":"Freezer 16 or over",
+        "vol":"60"
+      },{
+        "brand":"Range 20'' Wide",
+        "vol":"10"
+      },{
+        "brand":"Range 30'' Wide",
+        "vol":"15"
+      },{
+        "brand":"Range 36'' Wide",
+        "vol":"30"
+      },{
+        "brand":"Ref. 6 cu. ft. or less",
+        "vol":"30"
+      },{
+        "brand":"Ref. 7 to 10 cu. ft.",
+        "vol":"45"
+      },{
+        "brand":"Ref. 11 cu. ft./over",
+        "vol":"60"
+      },{
+        "brand":"Trash Compactor",
+        "vol":"15"
+      },{
+        "brand":"Vacuum Cleaner",
+        "vol":"5"
+      },{
+        "brand":"Washing Machine",
+        "vol":"25"
+      },{
+        "brand":"Dryer",
+        "vol":"25"
+      }
+    ]
+  },{
+    "category":"PATIO & OUTDOOR",
+    "goods": [
+      {
+        "brand":"BBQ Grill, Camping",
+        "vol":"2"
+      },{
+        "brand":"BBQ Grill, Large",
+        "vol":"10"
+      },{
+        "brand":"Chairs, Aluminum",
+        "vol":"1"
+      },{
+        "brand":"Chairs, Metal",
+        "vol":"3"
+      },{
+        "brand":"Chairs, Wood",
+        "vol":"5"
+      },{
+        "brand":"Garden Hose & Tools",
+        "vol":"10"
+      },{
+        "brand":"Glider or Settee",
+        "vol":"20"
+      },{
+        "brand":"Ladder, 6' Step",
+        "vol":"3"
+      },{
+        "brand":"Ladder, 8' Metal",
+        "vol":"2"
+      },{
+        "brand":"Ladder, Extension",
+        "vol":"8"
+      },{
+        "brand":"Lawn Mower, Hand",
+        "vol":"5"
+      },{
+        "brand":"Lawn Mower, Power",
+        "vol":"15"
+      },{
+        "brand":"Lawn Mower, Riding",
+        "vol":"35"
+      },{
+        "brand":"Lawn Edger",
+        "vol":"3"
+      },{
+        "brand":"Leaf Sweeper",
+        "vol":"5"
+      },{
+        "brand":"Outdoor Child Slide",
+        "vol":"10"
+      },{
+        "brand":"Outdoor Child Gym",
+        "vol":"20"
+      },{
+        "brand":"Outdoor Dry, Racks",
+        "vol":"5"
+      },{
+        "brand":"Outdoor Swings",
+        "vol":"30"
+      },{
+        "brand":"Picnic Table",
+        "vol":"20"
+      },{
+        "brand":"Picnic Bench",
+        "vol":"5"
+      },{
+        "brand":"Roller, Lawn",
+        "vol":"15"
+      },{
+        "brand":"Rug, Large",
+        "vol":"7"
+      },{
+        "brand":"Rug, Small",
+        "vol":"3"
+      },{
+        "brand":"Sand Box",
+        "vol":"10"
+      },{
+        "brand":"Spreader",
+        "vol":"2"
+      },{
+        "brand":"Table, Small",
+        "vol":"2"
+      },{
+        "brand":"Table, Large",
+        "vol":"4"
+      },{
+        "brand":"Umbrella",
+        "vol":"5"
+      },{
+        "brand":"Wheelbarrow",
+        "vol":"8"
+      }
+    ]
+  },{
+    "category":"MISC.",
+    "goods": [
+      {
+        "brand":"Baby Carriage",
+        "vol":"4"
+      },{
+        "brand":"Barbells",
+        "vol":"5"
+      },{
+        "brand":"Basket (Clothes)",
+        "vol":"5"
+      },{
+        "brand":"Bicycle",
+        "vol":"5"
+      },{
+        "brand":"Tricycle",
+        "vol":"2"
+      },{
+        "brand":"Bowling Ball/Bag",
+        "vol":"3"
+      },{
+        "brand":"Card Table",
+        "vol":"2"
+      },{
+        "brand":"Folding Chairs",
+        "vol":"1"
+      },{
+        "brand":"Clothes Hamper",
+        "vol":"5"
+      },{
+        "brand":"Cot, Folding",
+        "vol":"10"
+      },{
+        "brand":"Desk, Office",
+        "vol":"10"
+      },{
+        "brand":"Fan",
+        "vol":"5"
+      },{
+        "brand":"Fem/Plant Stands",
+        "vol":"2"
+      },{
+        "brand":"File Cabinet 2 Drawer",
+        "vol":"10"
+      },{
+        "brand":"File Cabinet 4 Drawer",
+        "vol":"20"
+      },{
+        "brand":"Footlockers",
+        "vol":"5"
+      },{
+        "brand":"Game Table",
+        "vol":"15"
+      },{
+        "brand":"Golf Bag",
+        "vol":"4"
+      },{
+        "brand":"Heater, Gas/Electric",
+        "vol":"5"
+      },{
+        "brand":"Metal Shelves",
+        "vol":"5"
+      },{
+        "brand":"Personal Computer",
+        "vol":"4"
+      },{
+        "brand":"Monitor",
+        "vol":"4"
+      },{
+        "brand":"Printer",
+        "vol":"3"
+      },{
+        "brand":"Ping Pong Table",
+        "vol":"40"
+      },{
+        "brand":"Pool Table Comp.",
+        "vol":"40"
+      },{
+        "brand":"Pool Table Slate",
+        "vol":"10"
+      },{
+        "brand":"Power Tool Hand Ea",
+        "vol":"3"
+      },{
+        "brand":"Power Tool Stand",
+        "vol":"15"
+      },{
+        "brand":"Sewing Machine, Port",
+        "vol":"10"
+      },{
+        "brand":"Sewing Machine",
+        "vol":"20"
+      },{
+        "brand":"Sled",
+        "vol":"2"
+      },{
+        "brand":"Suitcase",
+        "vol":"5"
+      },{
+        "brand":"Table, Utility",
+        "vol":"5"
+      },{
+        "brand":"Tackle Box",
+        "vol":"1"
+      },{
+        "brand":"Tire",
+        "vol":"3"
+      },{
+        "brand":"Tire w/Rim",
+        "vol":"5"
+      },{
+        "brand":"Tool Chest, Small",
+        "vol":"5"
+      },{
+        "brand":"Tool Chest, Medium",
+        "vol":"10"
+      },{
+        "brand":"Tool Chest, Large",
+        "vol":"15"
+      },{
+        "brand":"Trash Can",
+        "vol":"7"
+      },{
+        "brand":"Wagon, Child`s",
+        "vol":"5"
+      },{
+        "brand":"Wastepaper Basket",
+        "vol":"2"
+      },{
+        "brand":"Work Bench",
+        "vol":"20"
+      }
+    ]
+  },
+  {
+    "category":"BOXES",
+    "goods": [
+      {
+        "brand":"Book Box",
+        "vol":"2"
+      },{
+        "brand":"Medium Box",
+        "vol":"3"
+      },{
+        "brand":"Large Box",
+        "vol":"5"
+      },{
+        "brand":"Dish Pack",
+        "vol":"10"
+      },{
+        "brand":"Wardrobe Box",
+        "vol":"16"
       }
     ]
   }

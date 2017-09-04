@@ -107,6 +107,13 @@ a {
     position: relative;
     z-index: 1;
     resize: none; }
+.select-wrapper.black select,
+.select-wrapper.black input,
+.select-wrapper.black textarea,
+.input-wrapper.black select,
+.input-wrapper.black input,
+.input-wrapper.black textarea {
+  color: #232c33 }
     .select-wrapper select:focus,
     .select-wrapper input:focus,
     .select-wrapper textarea:focus,
